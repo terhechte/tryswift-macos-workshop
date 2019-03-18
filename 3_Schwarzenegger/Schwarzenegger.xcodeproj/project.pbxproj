@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B15BEEF21AD85B2008CAAEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15BEEE21AD85B2008CAAEA /* AppDelegate.swift */; };
+		3B15BEF121AD85B3008CAAEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B15BEF021AD85B3008CAAEA /* Assets.xcassets */; };
+		3B15BEF421AD85B3008CAAEA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B15BEF221AD85B3008CAAEA /* MainMenu.xib */; };
+		3B15BEFD21AD85F8008CAAEA /* TerminatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15BEFC21AD85F8008CAAEA /* TerminatorController.swift */; };
+		3B15BF0121AFDCD6008CAAEA /* SystemProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15BF0021AFDCD6008CAAEA /* SystemProcess.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B15BEEB21AD85B2008CAAEA /* Schwarzenegger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schwarzenegger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B15BEEE21AD85B2008CAAEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B15BEF021AD85B3008CAAEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B15BEF321AD85B3008CAAEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3B15BEF521AD85B3008CAAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B15BEF621AD85B3008CAAEA /* Schwarzenegger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Schwarzenegger.entitlements; sourceTree = "<group>"; };
+		3B15BEFC21AD85F8008CAAEA /* TerminatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminatorController.swift; sourceTree = "<group>"; };
+		3B15BF0021AFDCD6008CAAEA /* SystemProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemProcess.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B15BEE821AD85B2008CAAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B15BEE221AD85B2008CAAEA = {
+			isa = PBXGroup;
+			children = (
+				3B15BEED21AD85B2008CAAEA /* Schwarzenegger */,
+				3B15BEEC21AD85B2008CAAEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B15BEEC21AD85B2008CAAEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B15BEEB21AD85B2008CAAEA /* Schwarzenegger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B15BEED21AD85B2008CAAEA /* Schwarzenegger */ = {
+			isa = PBXGroup;
+			children = (
+				3B15BEEE21AD85B2008CAAEA /* AppDelegate.swift */,
+				3B15BEF021AD85B3008CAAEA /* Assets.xcassets */,
+				3B15BEF221AD85B3008CAAEA /* MainMenu.xib */,
+				3B15BEF521AD85B3008CAAEA /* Info.plist */,
+				3B15BEF621AD85B3008CAAEA /* Schwarzenegger.entitlements */,
+				3B15BEFC21AD85F8008CAAEA /* TerminatorController.swift */,
+				3B15BF0021AFDCD6008CAAEA /* SystemProcess.swift */,
+			);
+			path = Schwarzenegger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B15BEEA21AD85B2008CAAEA /* Schwarzenegger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B15BEF921AD85B3008CAAEA /* Build configuration list for PBXNativeTarget "Schwarzenegger" */;
+			buildPhases = (
+				3B15BEE721AD85B2008CAAEA /* Sources */,
+				3B15BEE821AD85B2008CAAEA /* Frameworks */,
+				3B15BEE921AD85B2008CAAEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Schwarzenegger;
+			productName = Schwarzenegger;
+			productReference = 3B15BEEB21AD85B2008CAAEA /* Schwarzenegger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B15BEE321AD85B2008CAAEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Benedikt Terhechte";
+				TargetAttributes = {
+					3B15BEEA21AD85B2008CAAEA = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3B15BEE621AD85B2008CAAEA /* Build configuration list for PBXProject "Schwarzenegger" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B15BEE221AD85B2008CAAEA;
+			productRefGroup = 3B15BEEC21AD85B2008CAAEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B15BEEA21AD85B2008CAAEA /* Schwarzenegger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B15BEE921AD85B2008CAAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B15BEF121AD85B3008CAAEA /* Assets.xcassets in Resources */,
+				3B15BEF421AD85B3008CAAEA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B15BEE721AD85B2008CAAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B15BEFD21AD85F8008CAAEA /* TerminatorController.swift in Sources */,
+				3B15BF0121AFDCD6008CAAEA /* SystemProcess.swift in Sources */,
+				3B15BEEF21AD85B2008CAAEA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B15BEF221AD85B3008CAAEA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B15BEF321AD85B3008CAAEA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B15BEF721AD85B3008CAAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B15BEF821AD85B3008CAAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3B15BEFA21AD85B3008CAAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Schwarzenegger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xing.Schwarzenegger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		3B15BEFB21AD85B3008CAAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Schwarzenegger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xing.Schwarzenegger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B15BEE621AD85B2008CAAEA /* Build configuration list for PBXProject "Schwarzenegger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B15BEF721AD85B3008CAAEA /* Debug */,
+				3B15BEF821AD85B3008CAAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B15BEF921AD85B3008CAAEA /* Build configuration list for PBXNativeTarget "Schwarzenegger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B15BEFA21AD85B3008CAAEA /* Debug */,
+				3B15BEFB21AD85B3008CAAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B15BEE321AD85B2008CAAEA /* Project object */;
+}
