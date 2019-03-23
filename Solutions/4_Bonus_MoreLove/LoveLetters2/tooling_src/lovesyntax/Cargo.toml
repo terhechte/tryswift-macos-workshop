@@ -1,0 +1,11 @@
+[package]
+name = "lovesyntax"
+version = "0.1.0"
+authors = ["Benedikt Terhechte <benedikt.terhechte@xing.com>"]
+
+[dependencies]
+syntect = "2.1"
+patch = "0.4.2"
+git2 = "0.7.5"
+structopt = "0.2"
+console = "0.6.1"
